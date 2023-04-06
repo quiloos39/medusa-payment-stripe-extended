@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
-    "lib": ["es5", "es6"],
+    "lib": [
+      "es5",
+      "es6"
+    ],
     "target": "esnext",
     "allowJs": true,
     "esModuleInterop": false,
@@ -12,11 +15,13 @@
     "skipDefaultLibCheck": true,
     "declaration": false,
     "sourceMap": false,
-    "outDir": "./dist",
+    "outDir": "./",
     "rootDir": "src",
     "baseUrl": "src"
   },
-  "include": ["src"],
+  "include": [
+    "src"
+  ],
   "exclude": [
     "**/__tests__",
     "**/__fixtures__",
