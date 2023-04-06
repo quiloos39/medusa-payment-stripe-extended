@@ -16,3 +16,9 @@ package-lock.json
 yarn.lock
 medusa-db.sql
 build
+api
+loaders
+migrations
+models
+services
+subscribers
